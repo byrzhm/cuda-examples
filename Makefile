@@ -1,5 +1,7 @@
 SUBDIRS := uvm \
-	   driver_api
+	   driver_api \
+	   debugger \
+	   pytorch
 
 .PHONY: all clean $(SUBDIRS)
 

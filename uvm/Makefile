@@ -6,4 +6,4 @@ vector_add_uvm:
 	nvcc vector_add_uvm.cu -o vector_add_uvm
 
 clean:
-	rm vector_add_uvm
+	rm -f vector_add_uvm

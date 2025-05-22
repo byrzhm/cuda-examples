@@ -9,4 +9,4 @@ cuda-gdb: buggy
 	cuda-gdb ./buggy
 
 clean:
-	rm buggy.cu
+	rm -f buggy

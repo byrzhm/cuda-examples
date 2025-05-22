@@ -1,0 +1,6 @@
+{
+    "clangd.fallbackFlags": [
+        "--cuda-path=/usr/local/cuda",
+        "--cuda-gpu-arch=sm_86"
+    ]
+}

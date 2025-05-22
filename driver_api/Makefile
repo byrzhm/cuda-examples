@@ -12,4 +12,4 @@ square_kernel.ptx: square_kernel.cu
 	nvcc -ptx square_kernel.cu -o square_kernel.ptx
 
 clean:
-	rm square_kernel.ptx driver_api_demo.o driver_api_demo
+	rm -f square_kernel.ptx driver_api_demo.o driver_api_demo
