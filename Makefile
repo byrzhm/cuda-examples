@@ -1,6 +1,7 @@
 SUBDIRS := uvm \
 	   driver_api \
 	   debugger \
+	   type_cast \
 	   pytorch
 
 .PHONY: all clean $(SUBDIRS)
