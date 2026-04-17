@@ -9,5 +9,9 @@
 
 .venv/
 build/
+build_test/
+
+.cache/
+compile_commands.json
 
 uv.lock

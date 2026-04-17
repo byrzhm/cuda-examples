@@ -84,3 +84,8 @@ cudaMallocManaged(&data, size); // Allocate managed memory
 // 'data' can now be accessed by both host and device code
 cudaFree(data);
 ```
+
+### Benchmark
+
+- [nvbench](https://github.com/NVIDIA/nvbench)
+- [nvbench_demo](https://github.com/NVIDIA/nvbench_demo)
