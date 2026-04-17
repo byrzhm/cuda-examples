@@ -1,4 +1,9 @@
-SUBDIRS := misc
+SUBDIRS := debugger \
+		   driver_api \
+		   type_cast \
+		   nvcc_macro \
+		   pytorch \
+		   uvm
 
 .PHONY: all clean $(SUBDIRS)
 

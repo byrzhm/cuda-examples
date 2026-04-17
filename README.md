@@ -1,5 +1,25 @@
 # CUDA Examples
 
+## Directory Structure
+
+```
+.
+├── misc/          # Miscellaneous CUDA code snippets and examples
+├── advanced/      # Advanced CUDA optimization techniques
+└── multi_gpu/     # Multi-GPU programming examples
+```
+
+## misc/
+
+Miscellaneous CUDA examples:
+
+- **debugger** - CUDA debugger examples
+- **driver_api** - CUDA Driver API examples
+- **nvcc_macro** - NVCC compiler macros
+- **pytorch** - PyTorch CUDA extensions
+- **type_cast** - CUDA type casting examples
+- **uvm** - Unified Virtual Memory examples
+
 ## CUDA Code Snippets
 
 ### Kernel Definition and Execution
