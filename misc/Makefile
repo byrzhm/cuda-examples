@@ -3,7 +3,8 @@ SUBDIRS := debugger \
 		   type_cast \
 		   nvcc_macro \
 		   pytorch \
-		   uvm
+		   uvm \
+		   tid
 
 .PHONY: all clean $(SUBDIRS)
 
